@@ -6,9 +6,12 @@ git add nome_arquivo_1
 depois
 git add nome_arquivo_2 -> serve para unir dois arquivos em um único commit
 git log -> mostra todo o histórico de commit
+git add . -> adiciona a pasta atual ao commit 
+git add * -> adiciona todos os arquivos da pasta atual (funciona igual ao git add . , mas é como se selecionasse arquivos manualmente dentro da pasta em vez de selecionar a pasta)
 aparece (HEAD -> main) ao lado do commit onde eu parei, o mais recente.
-
-
+git add *txt 
+git diff nome_arquivo -> mostra diferença entre uma versão do arquivo e outra, o que mudou
+git diff . -> mostra as diferenças entre versões de todos os arquivos da pasta atual  
 ### fluxo de trabalho ####
 1. criar o diretório mkdir nome_pasta
 2. iniciar o git com git init .
