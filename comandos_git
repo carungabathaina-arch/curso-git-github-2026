@@ -1,3 +1,4 @@
+Comandos: 
 git init . -> cria um repositório git na pasta atual
 git status -> mostra o status do trabalho
 git add nome_arquivo -> add o arquivo para ser commitado
@@ -13,6 +14,8 @@ git add *txt
 git diff nome_arquivo -> mostra diferença entre uma versão do arquivo e outra, o que mudou
 git diff . -> mostra as diferenças entre versões de todos os arquivos da pasta atual 
 git reset nome_arquivo -> remove um arquivo do commit, caso tenha sido adicionado (remove ele do estado de Stage, voltando para Unstaged) 
+git checkout -b nome_arquivo -> cria uma branch secundária (como uma cópia). Como se tivesse pegado o projeto e copiado para outra pasta. Agora trabalhamos na outra pasta.
+git branch -> mostra em qual branch está: a atual aparece destacada em verde. 
 ### fluxo de trabalho ####
 1. criar o diretório mkdir nome_pasta
 2. iniciar o git com git init .
@@ -24,3 +27,4 @@ git reset nome_arquivo -> remove um arquivo do commit, caso tenha sido adicionad
 8. git log para mostrar o histórico, se quiser
 
 Pode dar git status quando quiser. 
+Teste.
