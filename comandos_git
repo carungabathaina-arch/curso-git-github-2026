@@ -37,6 +37,9 @@ git checkout <nome da branch> -> entra na branch
 
 git merge <nome da branch> 
 
+IMPORTANTE: O merge não traz os arquivos de uma branch para a outra. 
+Ele traz as ALTERAÇÕES. Como se fosse uma cópia. 
+
 
 
 1. Fiz o merge entre as branches
