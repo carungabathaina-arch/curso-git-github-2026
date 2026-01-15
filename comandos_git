@@ -36,3 +36,10 @@ git checkout <nome da branch> -> entra na branch
 #### JUNTAR DUAS BRANCHES ####
 
 git merge <nome da branch> 
+
+
+
+1. Fiz o merge entre as branches
+2. Adicionei o arquivo ao git 
+3. Alterei o arquivo
+4. Fiz o commit
