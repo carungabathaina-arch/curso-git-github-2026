@@ -61,3 +61,5 @@ Linha cinquenta e oito bolada
 #### NO GIT HUB ####
 
 git push origin -> manda o commit (as alterações) para o repositório remoto
+
+git clone (URL do fork) -> escolhe o fork em que irá trabalhar
